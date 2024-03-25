@@ -8,7 +8,7 @@ const Header = () => {
 	
 	return (
 		<div className={'header'}>
-			<Button className='header__button' onClick={onClose}>YOUR LEVEL</Button>
+			<Button className='header__button' onClick={onClose}>НОВИЧОК</Button>
 		</div>
 	);
 };
