@@ -1,16 +1,35 @@
 .balance {
+	margin: auto;
 	border: 2px solid #231F20;
 	background: white;
-	width: 191px;
-	height: fit-content;
-}
-
-.balance__img {
-	width: 93px;
+	width: 188px;
+	height: 157px;
+	border-radius: 10px;
+	overflow: hidden; /* добавляем overflow: hidden */
+	position: relative; /* добавляем position: relative для позиционирования дочерних элементов */
 }
 
 .balance__title {
-	font-family: "Kanit", sans-serif;
   	font-weight: 400;
+	font-size: 12px;
 	opacity: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: -15px;
+}
+
+.balance__counter {
+	font-size: 46px;
+	font-weight: 500;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.balance__img {
+	height: 83.34px;
+	width: 84px;
+	margin-top: -10px;
+	position: absolute; /* позиционируем изображение абсолютно */
+	bottom: -10; /* прижимаем изображение к нижней границе родительского блока */
+	left: 10px; /* прижимаем изображение к правой границе родительского блока */
 }
