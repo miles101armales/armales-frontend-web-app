@@ -4,14 +4,11 @@ import { useTelegram } from '../../hooks/useTelegram';
 import './header.css';
 
 const Header = () => {
-	const {user, onClose} = useTelegram();
+	const {onClose} = useTelegram();
 	
 	return (
 		<div className={'header'}>
-			<Button onClick={onClose}>Close App</Button>\
-			<span className={'username'}>
-				{user?.username}
-			</span>
+			<Button className='header__button' onClick={onClose}>YOUR LEVEL</Button>
 		</div>
 	);
 };
