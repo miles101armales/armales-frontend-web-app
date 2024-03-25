@@ -1,0 +1,16 @@
+.balance {
+	border: 2px solid #231F20;
+	background: white;
+	width: 191px;
+	height: fit-content;
+}
+
+.balance__img {
+	width: 93px;
+}
+
+.balance__title {
+	font-family: "Kanit", sans-serif;
+  	font-weight: 400;
+	opacity: 50%;
+}
