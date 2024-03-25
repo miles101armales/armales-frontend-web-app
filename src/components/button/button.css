@@ -5,4 +5,10 @@
 	border: none;
 	outline: none;
 	cursor: pointer;
+	font-family: "Kanit", sans-serif;
+  	font-weight: 300;
+  	border: none;
+  	background: orange;
+  	padding: 5px 10px;
+  	border-radius: 5px;
 }
